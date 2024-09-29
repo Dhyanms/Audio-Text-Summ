@@ -1,0 +1,8 @@
+streamlit==1.38.0
+requests==2.32.3
+jiwer==3.0.4
+rouge-score==0.1.2
+transformers==4.44.2
+torch==2.4.1
+librosa==0.10.2.post1  # Only if you need it for audio processing
+numpy==1.26.4          # Required for numerical operations
