@@ -1,0 +1,6 @@
+libfreetype6-dev
+libart-2.0-dev
+build-essential
+ffmpeg            # Required for moviepy (audio processing)
+
+# This is for system level dependencies
