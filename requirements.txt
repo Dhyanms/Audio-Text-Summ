@@ -8,3 +8,4 @@ moviepy==1.0.3            # Required for audio processing and conversion
 numpy==1.26.4             # Required for numerical operations
 python-docx==0.8.11                # Required for creating Word documents
 reportlab==3.6.12         # Required for creating PDF files
+python-dotenv==1.0.0      # Required for loading environment variables from .env file

@@ -8,9 +8,10 @@ from reportlab.pdfgen import canvas
 from moviepy.editor import AudioFileClip
 import tempfile
 import os
+from dontenv import load_dotenv
 
 # Set your Hugging Face API token here (ensure this is kept secure)
-hf_token = "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"
+hf_token = os.getenv('href')
 
 # Custom CSS
 st.markdown(
